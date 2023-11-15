@@ -18,4 +18,9 @@ int main ()
     edad["Juan"] = 25;
     edad["Maria"] = 30;
     edad.erase("Juan");
+
+    std::cout << "map" << std::endl;
+    for (const auto& persona : edad) {
+        std::cout << persona.first << " " << persona.second << std::endl;
+    }
 }
