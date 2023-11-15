@@ -7,6 +7,10 @@ namespace Geometria {
         {
             return PI * radio * radio;
         }
+        double calcularPerimetro(double radio)
+        {
+            return 2 * PI * radio;
+        }
     }
 
 }
