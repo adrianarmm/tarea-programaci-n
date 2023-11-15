@@ -9,3 +9,9 @@ namespace Matematicas {
         return a - b;
     }
 }
+int main()
+{
+    std::cout << Matematicas::suma(5, 3) << std::endl;
+    std::cout << Matematicas::resta(5, 3) << std::endl;
+    return 0;
+}
