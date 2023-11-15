@@ -4,9 +4,8 @@ namespace Matematicas {
     {
         return a + b;
     }
-}
-int main()
-{
-    std::cout << Matematicas::suma(2, 3) << std::endl;
-    return 0;
+    int resta(int a, int b)
+    {
+        return a - b;
+    }
 }
