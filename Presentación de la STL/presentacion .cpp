@@ -28,4 +28,9 @@ int main ()
     std::set<int> conjunto {1, 2, 3, 4, 5};
     conjunto.insert(6);
     conjunto.erase(1);
+
+    std::cout << "set" << std::endl;
+    for (int num : conjunto) {
+        std::cout << num << std::endl;
+    }
 }
