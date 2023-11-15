@@ -1,3 +1,6 @@
 #include <iostream>
 namespace Matematicas {
-    int suma(int a, int b) {
+    int suma(int a, int b)
+    {
+        return a + b;
+    }
