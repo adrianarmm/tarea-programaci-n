@@ -5,7 +5,7 @@
 
 int main ()
 {
-    std::vector<int> numeros {1, 2, 3, 4, 5};
+    std::vector<int> numeros; {1, 2, 3, 4, 5};
     numeros.push_back(6);
 
     std::cout << "vector" ;
@@ -25,7 +25,7 @@ int main ()
     }
     std::cout << std::endl;
 
-    std::set<int> conjunto {1, 2, 3, 4, 5};
+    std::set<int> conjunto;; {1, 2, 3, 4, 5};
     conjunto.insert(6);
     conjunto.erase(1);
 
