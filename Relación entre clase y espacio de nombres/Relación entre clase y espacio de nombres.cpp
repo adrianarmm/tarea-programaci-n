@@ -6,4 +6,8 @@ namespace Geometria {
     class Circulo {
     private:
         double radio;
+    public:
+        Circulo(double radio) : radio(radio) {}
+
+        }
     };
