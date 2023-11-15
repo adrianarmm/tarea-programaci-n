@@ -14,4 +14,7 @@ void setRadio(double radio) {
         double getRadio() {
             return radio;
         }
+        double calcularArea() const{
+            return PI * radio * radio;
+        }
     };
