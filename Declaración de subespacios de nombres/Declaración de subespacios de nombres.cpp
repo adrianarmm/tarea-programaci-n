@@ -8,6 +8,9 @@ namespace Ciencia {
             return masa * c * c;
         }
 
+double calcularMomentoLineal(double masa, double velocidad) {
+            return masa * velocidad;
+        }
 
     }
 
