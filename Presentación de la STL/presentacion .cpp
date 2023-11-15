@@ -23,4 +23,9 @@ int main ()
     for (const auto& persona : edad) {
         std::cout << persona.first << " " << persona.second << std::endl;
     }
+    std::cout << std::endl;
+
+    std::set<int> conjunto {1, 2, 3, 4, 5};
+    conjunto.insert(6);
+    conjunto.erase(1);
 }
