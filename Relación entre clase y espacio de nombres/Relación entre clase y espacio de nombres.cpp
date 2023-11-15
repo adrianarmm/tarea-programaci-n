@@ -17,4 +17,11 @@ void setRadio(double radio) {
         double calcularArea() const{
             return PI * radio * radio;
         }
+        double calcularPerimetro() const{
+            return 2 * PI * radio;
+        }
+        bool compararAreas(const Circulo& otroCirculo) const{
+            return calcularArea() > otroCirculo.calcularArea();
+        }
     };
+}
