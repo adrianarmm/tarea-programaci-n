@@ -8,6 +8,8 @@ namespace Geometria {
         double radio;
     public:
         Circulo(double radio) : radio(radio) {}
+void setRadio(double radio) {
+            this->radio = radio;
 
         }
     };
