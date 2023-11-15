@@ -33,4 +33,7 @@ int main ()
     for (int num : conjunto) {
         std::cout << num << std::endl;
     }
+    std::cout << std::endl;
+
+    return 0;
 }
