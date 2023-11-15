@@ -9,5 +9,8 @@ int main ()
     numeros.push_back(6);
 
     std::cout << "vector" ;
-
+    for (int num : numeros) {
+        std::cout << " " << num;
+    }
+    std::cout << std::endl;
 }
