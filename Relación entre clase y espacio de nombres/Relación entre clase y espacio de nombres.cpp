@@ -10,6 +10,8 @@ namespace Geometria {
         Circulo(double radio) : radio(radio) {}
 void setRadio(double radio) {
             this->radio = radio;
-
+        }
+        double getRadio() {
+            return radio;
         }
     };
