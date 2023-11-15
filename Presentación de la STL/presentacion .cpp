@@ -13,4 +13,9 @@ int main ()
         std::cout << " " << num;
     }
     std::cout << std::endl;
+
+    std::map<std::string, int> edad;
+    edad["Juan"] = 25;
+    edad["Maria"] = 30;
+    edad.erase("Juan");
 }
