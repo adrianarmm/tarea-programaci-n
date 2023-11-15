@@ -11,9 +11,16 @@ namespace Matematicas {
     int multiplicacion(int a, int b) {
         return a * b;
     }
-    float division(float a, float b) {
+    float division(float a, float b)
+    {
         if (b != 0) {
             return a / b;
+        } else
+        {
+            std::cerr << "Error: División por cero." << std::endl;
+            return 0;
+        }
+    }
 
 }
 int main()
