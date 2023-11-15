@@ -24,5 +24,8 @@ int main() {
     double momento_lineal = Ciencia::Fisica::calcularMomentoLineal(masa, velocidad);
     std::cout << "El momento lineal de un objeto de " << masa << "kg y " << velocidad << "m/s es: " << momento_lineal << std::endl;
 
+    double aceleracion = 9.8;
+    std::cout << "La fuerza de un objeto de " << masa << "kg y " << aceleracion << "m/s^2 es: " << Ciencia::Fisica::calcularFuerza(masa, aceleracion) << std::endl;
+
+    return 0;
     }
-}
